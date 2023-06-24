@@ -23,3 +23,9 @@
 
 
 ### getByText: Outside of forms, text content is the main way users find elements. This method can be used to find non-interactive elements (like divs, spans, and paragraphs).
+
+### getByDisplayValue: Returns the input, textarea, or select element that has the matching display value.
+
+### getByAltText: returns images alt text
+
+### getByTitle: returns the title of the element
