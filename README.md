@@ -29,3 +29,6 @@
 ### getByAltText: returns images alt text
 
 ### getByTitle: returns the title of the element
+
+
+### DIfference between getAllByRole vs getByRole is when we write a list of elements, we must use getAllByRole with the argument of ("listitem), on the other side, we need to use ("list) for getByRole.
