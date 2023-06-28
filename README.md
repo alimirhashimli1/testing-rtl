@@ -32,3 +32,5 @@
 
 
 ### DIfference between getAllByRole vs getByRole is when we write a list of elements, we must use getAllByRole with the argument of ("listitem), on the other side, we need to use ("list) for getByRole.
+
+### queryBy...: Returns the matching node for a query, and return null if no elements match. This is useful for asserting an element that is not present. Throws an error if more than one match is found (use queryAllBy instead if this is OK).

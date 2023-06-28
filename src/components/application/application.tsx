@@ -39,7 +39,7 @@ export const Application = () => {
               conditions
             </label>
           </div>
-          <button disabled>Submit</button>
+          <button>Submit</button>
           <h5>hello world</h5>
         </form>
       </>
