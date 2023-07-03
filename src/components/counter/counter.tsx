@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { act } from 'react-dom/test-utils'
 
 export const Counter = () => {
   const [count, setCount] = useState(0)
