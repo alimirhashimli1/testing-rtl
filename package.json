@@ -64,7 +64,13 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "eslint-config-prettier": "^8.8.0",
-    "msw": "^1.2.2",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "msw": "^1.2.2"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": ["eslint"],
+    "*.{ts,tsx,css,scss}": ["prettier --write"]
   }
+
 }
